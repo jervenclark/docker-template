@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Remove docker buildkit
 echo 'Strip buildkit flags'
