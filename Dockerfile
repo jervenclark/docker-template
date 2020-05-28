@@ -21,4 +21,4 @@ ENV BUILD_RFC3339 "$BUILD_RFC3339"
 ENV COMMIT "$COMMIT"
 ENV VERSION "$VERSION"
 
-RUN --mount=type=cache,target=/var/cache command
+RUN --mount=type=cache,target=/var/cache echo '***'
