@@ -2,7 +2,7 @@
 
 # Remove docker buildkit
 echo 'Strip buildkit flags'
-sed -E 's/RUN --(\w|=|,|\/|\.)+\s/RUN /;s/COPY \.\//COPY \.\.\//' \
+sed -E 's/RUN --(\w|=|,|\/|\.)+\s/RUN /;' \
     Dockerfile > Dockerfile.hub
 git add Dockerfile.hub
 exit
