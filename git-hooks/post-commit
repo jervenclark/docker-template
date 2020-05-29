@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# Commit hub/Dockerfile
-echo 'Stage and commit hub/Dockerfile'
-
-git add hub/Dockerfile
-git commit --amend -C HEAD --no-verify
-exit
