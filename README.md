@@ -9,5 +9,3 @@ Move the contentst of `git-hooks` directory to `.git/hooks`.
 ```sh
 mv git-hooks/* .git/hooks
 ```
-
-
