@@ -20,5 +20,3 @@ LABEL org.opencontainers.image.ref.name="jervenclark/docker-template" \
 ENV BUILD_RFC3339 "$BUILD_RFC3339"
 ENV COMMIT "$COMMIT"
 ENV VERSION "$VERSION"
-
-RUN --mount=type=cache,target=/var/cache echo '***'

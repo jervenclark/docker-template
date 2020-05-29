@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
 # Remove docker buildkit
 echo 'Strip buildkit flags'
-sed -E 's/--(\w|=|,|\/|)+\s//' Dockerfile > hub/Dockerfile
+sed -E 's/RUN --(\w|=|,|\/|)+\s//' Dockerfile > hub/Dockerfile
 exit
