@@ -16,6 +16,6 @@ done
 
 if [ -n "$name" ];
 then
-    # ln -fs $PWD/git-hooks/pre-commit .git/hooks/pre-commit
+    ln -fs $PWD/git-hooks/pre-commit .git/hooks/pre-commit
     sed -E "s/template/$name/;s/some description/$desc/" Dockerfile
 fi
